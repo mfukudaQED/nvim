@@ -1,0 +1,132 @@
+### vivid color
+
+#ff0000	#ff007f	#ff00ff	#7f00ff	#0000ff	#007fff	#00ffff	#00ff7f	#00ff00	#7fff00	#ffff00	#ff7f00
+#ff0505	#ff0582	#ff05ff	#8205ff	#0505ff	#0582ff	#05ffff	#05ff82	#05ff05	#82ff05	#ffff05	#ff8205
+#ff0a0a	#ff0a84	#ff0aff	#840aff	#0a0aff	#0a84ff	#0affff	#0aff84	#0aff0a	#84ff0a	#ffff0a	#ff840a
+#ff0f0f	#ff0f87	#ff0fff	#870fff	#0f0fff	#0f87ff	#0fffff	#0fff87	#0fff0f	#87ff0f	#ffff0f	#ff870f
+#ff1414	#ff1489	#ff14ff	#8914ff	#1414ff	#1489ff	#14ffff	#14ff89	#14ff14	#89ff14	#ffff14	#ff8914
+#ff1919	#ff198c	#ff19ff	#8c19ff	#1919ff	#198cff	#19ffff	#19ff8c	#19ff19	#8cff19	#ffff19	#ff8c19
+#ff1e1e	#ff1e8e	#ff1eff	#8e1eff	#1e1eff	#1e8eff	#1effff	#1eff8e	#1eff1e	#8eff1e	#ffff1e	#ff8e1e
+#ff2323	#ff2391	#ff23ff	#9123ff	#2323ff	#2391ff	#23ffff	#23ff91	#23ff23	#91ff23	#ffff23	#ff9123
+#ff2828	#ff2893	#ff28ff	#9328ff	#2828ff	#2893ff	#28ffff	#28ff93	#28ff28	#93ff28	#ffff28	#ff9328
+#ff2d2d	#ff2d96	#ff2dff	#962dff	#2d2dff	#2d96ff	#2dffff	#2dff96	#2dff2d	#96ff2d	#ffff2d	#ff962d
+#ff3333	#ff3399	#ff33ff	#9933ff	#3333ff	#3399ff	#33ffff	#33ff99	#33ff33	#99ff33	#ffff33	#ff9933
+#ff3838	#ff389b	#ff38ff	#9b38ff	#3838ff	#389bff	#38ffff	#38ff9b	#38ff38	#9bff38	#ffff38	#ff9b38
+#ff3d3d	#ff3d9e	#ff3dff	#9e3dff	#3d3dff	#3d9eff	#3dffff	#3dff9e	#3dff3d	#9eff3d	#ffff3d	#ff9e3d
+#ff4242	#ff42a0	#ff42ff	#a042ff	#4242ff	#42a0ff	#42ffff	#42ffa0	#42ff42	#a0ff42	#ffff42	#ffa042
+#ff4747	#ff47a3	#ff47ff	#a347ff	#4747ff	#47a3ff	#47ffff	#47ffa3	#47ff47	#a3ff47	#ffff47	#ffa347
+#ff4c4c	#ff4ca5	#ff4cff	#a54cff	#4c4cff	#4ca5ff	#4cffff	#4cffa5	#4cff4c	#a5ff4c	#ffff4c	#ffa54c
+#ff5151	#ff51a8	#ff51ff	#a851ff	#5151ff	#51a8ff	#51ffff	#51ffa8	#51ff51	#a8ff51	#ffff51	#ffa851
+#ff5656	#ff56aa	#ff56ff	#aa56ff	#5656ff	#56aaff	#56ffff	#56ffaa	#56ff56	#aaff56	#ffff56	#ffaa56
+#ff5b5b	#ff5bad	#ff5bff	#ad5bff	#5b5bff	#5badff	#5bffff	#5bffad	#5bff5b	#adff5b	#ffff5b	#ffad5b
+#ff6060	#ff60af	#ff60ff	#af60ff	#6060ff	#60afff	#60ffff	#60ffaf	#60ff60	#afff60	#ffff60	#ffaf60
+#ff6666	#ff66b2	#ff66ff	#b266ff	#6666ff	#66b2ff	#66ffff	#66ffb2	#66ff66	#b2ff66	#ffff66	#ffb266
+#ff6b6b	#ff6bb5	#ff6bff	#b56bff	#6b6bff	#6bb5ff	#6bffff	#6bffb5	#6bff6b	#b5ff6b	#ffff6b	#ffb56b
+#ff7070	#ff70b7	#ff70ff	#b770ff	#7070ff	#70b7ff	#70ffff	#70ffb7	#70ff70	#b7ff70	#ffff70	#ffb770
+#ff7575	#ff75ba	#ff75ff	#ba75ff	#7575ff	#75baff	#75ffff	#75ffba	#75ff75	#baff75	#ffff75	#ffba75
+#ff7a7a	#ff7abc	#ff7aff	#bc7aff	#7a7aff	#7abcff	#7affff	#7affbc	#7aff7a	#bcff7a	#ffff7a	#ffbc7a
+
+
+# pastel color
+
+#ff7f7f	#ff7fbf	#ff7fff	#bf7fff	#7f7fff	#7fbfff	#7fffff	#7fffbf	#7fff7f	#bfff7f	#ffff7f	#ffbf7f
+#ff8484	#ff84c1	#ff84ff	#c184ff	#8484ff	#84c1ff	#84ffff	#84ffc1	#84ff84	#c1ff84	#ffff84	#ffc184
+#ff8989	#ff89c4	#ff89ff	#c489ff	#8989ff	#89c4ff	#89ffff	#89ffc4	#89ff89	#c4ff89	#ffff89	#ffc489
+#ff8e8e	#ff8ec6	#ff8eff	#c68eff	#8e8eff	#8ec6ff	#8effff	#8effc6	#8eff8e	#c6ff8e	#ffff8e	#ffc68e
+#ff9393	#ff93c9	#ff93ff	#c993ff	#9393ff	#93c9ff	#93ffff	#93ffc9	#93ff93	#c9ff93	#ffff93	#ffc993
+#ff9999	#ff99cc	#ff99ff	#cc99ff	#9999ff	#99ccff	#99ffff	#99ffcc	#99ff99	#ccff99	#ffff99	#ffcc99
+#ff9e9e	#ff9ece	#ff9eff	#ce9eff	#9e9eff	#9eceff	#9effff	#9effce	#9eff9e	#ceff9e	#ffff9e	#ffce9e
+#ffa3a3	#ffa3d1	#ffa3ff	#d1a3ff	#a3a3ff	#a3d1ff	#a3ffff	#a3ffd1	#a3ffa3	#d1ffa3	#ffffa3	#ffd1a3
+#ffa8a8	#ffa8d3	#ffa8ff	#d3a8ff	#a8a8ff	#a8d3ff	#a8ffff	#a8ffd3	#a8ffa8	#d3ffa8	#ffffa8	#ffd3a8
+#ffadad	#ffadd6	#ffadff	#d6adff	#adadff	#add6ff	#adffff	#adffd6	#adffad	#d6ffad	#ffffad	#ffd6ad
+#ffb2b2	#ffb2d8	#ffb2ff	#d8b2ff	#b2b2ff	#b2d8ff	#b2ffff	#b2ffd8	#b2ffb2	#d8ffb2	#ffffb2	#ffd8b2
+#ffb7b7	#ffb7db	#ffb7ff	#dbb7ff	#b7b7ff	#b7dbff	#b7ffff	#b7ffdb	#b7ffb7	#dbffb7	#ffffb7	#ffdbb7
+#ffbcbc	#ffbcdd	#ffbcff	#ddbcff	#bcbcff	#bcddff	#bcffff	#bcffdd	#bcffbc	#ddffbc	#ffffbc	#ffddbc
+#ffc1c1	#ffc1e0	#ffc1ff	#e0c1ff	#c1c1ff	#c1e0ff	#c1ffff	#c1ffe0	#c1ffc1	#e0ffc1	#ffffc1	#ffe0c1
+#ffc6c6	#ffc6e2	#ffc6ff	#e2c6ff	#c6c6ff	#c6e2ff	#c6ffff	#c6ffe2	#c6ffc6	#e2ffc6	#ffffc6	#ffe2c6
+#ffcccc	#ffcce5	#ffccff	#e5ccff	#ccccff	#cce5ff	#ccffff	#ccffe5	#ccffcc	#e5ffcc	#ffffcc	#ffe5cc
+#ffd1d1	#ffd1e8	#ffd1ff	#e8d1ff	#d1d1ff	#d1e8ff	#d1ffff	#d1ffe8	#d1ffd1	#e8ffd1	#ffffd1	#ffe8d1
+#ffd6d6	#ffd6ea	#ffd6ff	#ead6ff	#d6d6ff	#d6eaff	#d6ffff	#d6ffea	#d6ffd6	#eaffd6	#ffffd6	#ffead6
+#ffdbdb	#ffdbed	#ffdbff	#eddbff	#dbdbff	#dbedff	#dbffff	#dbffed	#dbffdb	#edffdb	#ffffdb	#ffeddb
+#ffe0e0	#ffe0ef	#ffe0ff	#efe0ff	#e0e0ff	#e0efff	#e0ffff	#e0ffef	#e0ffe0	#efffe0	#ffffe0	#ffefe0
+#ffe5e5	#ffe5f2	#ffe5ff	#f2e5ff	#e5e5ff	#e5f2ff	#e5ffff	#e5fff2	#e5ffe5	#f2ffe5	#ffffe5	#fff2e5
+#ffeaea	#ffeaf4	#ffeaff	#f4eaff	#eaeaff	#eaf4ff	#eaffff	#eafff4	#eaffea	#f4ffea	#ffffea	#fff4ea
+#ffefef	#ffeff7	#ffefff	#f7efff	#efefff	#eff7ff	#efffff	#effff7	#efffef	#f7ffef	#ffffef	#fff7ef
+#fff4f4	#fff4f9	#fff4ff	#f9f4ff	#f4f4ff	#f4f9ff	#f4ffff	#f4fff9	#f4fff4	#f9fff4	#fffff4	#fff9f4
+#fff9f9	#fff9fc	#fff9ff	#fcf9ff	#f9f9ff	#f9fcff	#f9ffff	#f9fffc	#f9fff9	#fcfff9	#fffff9	#fffcf9
+
+
+# monotone
+
+#000000	#202020	#404040	#606060	#808080	#a0a0a0	#c0c0c0	#e0e0e0
+#010101	#212121	#414141	#616161	#818181	#a1a1a1	#c1c1c1	#e1e1e1
+#020202	#222222	#424242	#626262	#828282	#a2a2a2	#c2c2c2	#e2e2e2
+#030303	#232323	#434343	#636363	#838383	#a3a3a3	#c3c3c3	#e3e3e3
+#040404	#242424	#444444	#646464	#848484	#a4a4a4	#c4c4c4	#e4e4e4
+#050505	#252525	#454545	#656565	#858585	#a5a5a5	#c5c5c5	#e5e5e5
+#060606	#262626	#464646	#666666	#868686	#a6a6a6	#c6c6c6	#e6e6e6
+#070707	#272727	#474747	#676767	#878787	#a7a7a7	#c7c7c7	#e7e7e7
+#080808	#282828	#484848	#686868	#888888	#a8a8a8	#c8c8c8	#e8e8e8
+#090909	#292929	#494949	#696969	#898989	#a9a9a9	#c9c9c9	#e9e9e9
+#0a0a0a	#2a2a2a	#4a4a4a	#6a6a6a	#8a8a8a	#aaaaaa	#cacaca	#eaeaea
+#0b0b0b	#2b2b2b	#4b4b4b	#6b6b6b	#8b8b8b	#ababab	#cbcbcb	#ebebeb
+#0c0c0c	#2c2c2c	#4c4c4c	#6c6c6c	#8c8c8c	#acacac	#cccccc	#ececec
+#0d0d0d	#2d2d2d	#4d4d4d	#6d6d6d	#8d8d8d	#adadad	#cdcdcd	#ededed
+#0e0e0e	#2e2e2e	#4e4e4e	#6e6e6e	#8e8e8e	#aeaeae	#cecece	#eeeeee
+#0f0f0f	#2f2f2f	#4f4f4f	#6f6f6f	#8f8f8f	#afafaf	#cfcfcf	#efefef
+#101010	#303030	#505050	#707070	#909090	#b0b0b0	#d0d0d0	#f0f0f0
+#111111	#313131	#515151	#717171	#919191	#b1b1b1	#d1d1d1	#f1f1f1
+#121212	#323232	#525252	#727272	#929292	#b2b2b2	#d2d2d2	#f2f2f2
+#131313	#333333	#535353	#737373	#939393	#b3b3b3	#d3d3d3	#f3f3f3
+#141414	#343434	#545454	#747474	#949494	#b4b4b4	#d4d4d4	#f4f4f4
+#151515	#353535	#555555	#757575	#959595	#b5b5b5	#d5d5d5	#f5f5f5
+#161616	#363636	#565656	#767676	#969696	#b6b6b6	#d6d6d6	#f6f6f6
+#171717	#373737	#575757	#777777	#979797	#b7b7b7	#d7d7d7	#f7f7f7
+#181818	#383838	#585858	#787878	#989898	#b8b8b8	#d8d8d8	#f8f8f8
+#191919	#393939	#595959	#797979	#999999	#b9b9b9	#d9d9d9	#f9f9f9
+#1a1a1a	#3a3a3a	#5a5a5a	#7a7a7a	#9a9a9a	#bababa	#dadada	#fafafa
+#1b1b1b	#3b3b3b	#5b5b5b	#7b7b7b	#9b9b9b	#bbbbbb	#dbdbdb	#fbfbfb
+#1c1c1c	#3c3c3c	#5c5c5c	#7c7c7c	#9c9c9c	#bcbcbc	#dcdcdc	#fcfcfc
+#1d1d1d	#3d3d3d	#5d5d5d	#7d7d7d	#9d9d9d	#bdbdbd	#dddddd	#fdfdfd
+#1e1e1e	#3e3e3e	#5e5e5e	#7e7e7e	#9e9e9e	#bebebe	#dedede	#fefefe
+#1f1f1f	#3f3f3f	#5f5f5f	#7f7f7f	#9f9f9f	#bfbfbf	#dfdfdf	#ffffff
+
+
+# Web216
+
+#000000	#ffffcc	#99ff99	#66ffff	#3333ff	#ff00ff
+#333333	#ffff99	#66ff66	#33ffff	#0000ff	#ff00cc
+#666666	#ffff66	#33ff33	#00ffff	#3300ff	#cc0099
+#999999	#ffff33	#00ff00	#00ccff	#3300cc	#ff33cc
+#cccccc	#ffff00	#00ff33	#0099cc	#6633ff	#990066
+#ffffff	#ccff00	#00cc33	#33ccff	#330099	#cc3399
+#ff3300	#99cc00	#33ff66	#006699	#6633cc	#ff66cc
+#cc3300	#ccff33	#009933	#3399cc	#9966ff	#ff0099
+#ff6633	#669900	#33cc66	#66ccff	#6600ff	#660033
+#993300	#99cc33	#66ff99	#0099ff	#330066	#993366
+#cc6633	#ccff66	#00ff66	#003366	#663399	#cc6699
+#ff9966	#99ff00	#006633	#336699	#9966cc	#cc0066
+#ff6600	#336600	#339966	#6699cc	#6600cc	#ff99cc
+#663300	#669933	#66cc99	#0066cc	#cc99ff	#ff3399
+#996633	#99cc66	#00cc66	#99ccff	#9933ff	#ff0066
+#cc9966	#66cc00	#99ffcc	#3399ff	#9900ff	#990033
+#cc6600	#ccff99	#33ff99	#0066ff	#660099	#cc3366
+#ffcc99	#99ff33	#00ff99	#003399	#9933cc	#ff6699
+#ff9933	#66ff00	#009966	#3366cc	#cc66ff	#cc0033
+#ff9900	#339900	#33cc99	#6699ff	#9900cc	#ff3366
+#996600	#66cc33	#66ffcc	#0033cc	#cc33ff	#ff0033
+#cc9933	#99ff66	#00cc99	#3366ff	#cc00ff	#330000
+#ffcc66	#33cc00	#33ffcc	#0033ff	#330033	#663333
+#cc9900	#66ff33	#00ffcc	#000033	#663366	#660000
+#ffcc33	#33ff00	#003333	#333366	#660066	#996666
+#ffcc00	#003300	#336666	#000066	#996699	#993333
+#333300	#336633	#006666	#666699	#993399	#990000
+#666633	#006600	#669999	#333399	#990099	#cc9999
+#666600	#669966	#339999	#000099	#cc99cc	#cc6666
+#999966	#339933	#009999	#9999cc	#cc66cc	#cc3333
+#999933	#009900	#99cccc	#6666cc	#cc33cc	#cc0000
+#999900	#99cc99	#66cccc	#3333cc	#cc00cc	#ffcccc
+#cccc99	#66cc66	#33cccc	#0000cc	#ffccff	#ff9999
+#cccc66	#33cc33	#00cccc	#ccccff	#ff99ff	#ff6666
+#cccc33	#00cc00	#ccffff	#9999ff	#ff66ff	#ff3333
+#cccc00	#ccffcc	#99ffff	#6666ff	#ff33ff	#ff0000
