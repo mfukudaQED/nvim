@@ -22,6 +22,7 @@ map("t", "jj", "<C-\\><C-n>", opts)
 -- normal mode ----------------------
 map("n", "<leader>v", ":buffers <CR>:vertical diffsplit #", opts2)
 map("n", "<leader>cc", ':lua require("color-converter").cycle()<CR>', opts)
+map("n", "<leader><leader>", "<C-w><C-w>", opts)
 
 function paste_setting()
     if vim.o.paste then
