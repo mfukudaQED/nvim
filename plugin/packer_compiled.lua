@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/color-converter.nvim",
     url = "https://github.com/NTBBloodbath/color-converter.nvim"
   },
+  ["dashboard-nvim"] = {
+    loaded = true,
+    path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/dashboard-nvim",
+    url = "https://github.com/glepnir/dashboard-nvim"
+  },
   ["indent-blankline.nvim"] = {
     loaded = true,
     path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/indent-blankline.nvim",
@@ -128,6 +133,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
+  },
+  ["markdown-preview.nvim"] = {
+    loaded = true,
+    path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/markdown-preview.nvim",
+    url = "https://github.com/iamcco/markdown-preview.nvim"
   },
   ["nightfox.nvim"] = {
     loaded = true,
@@ -243,6 +253,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/vimtex",
     url = "https://github.com/lervag/vimtex"
+  },
+  ["wilder.nvim"] = {
+    loaded = true,
+    path = "/home/fukuda/.local/share/nvim/site/pack/packer/start/wilder.nvim",
+    url = "https://github.com/gelguy/wilder.nvim"
   }
 }
 

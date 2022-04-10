@@ -1,6 +1,7 @@
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 local opts2 = { noremap = true, silent = false }
+local opts3 = { noremap = false, silent = true }
 
 vim.g.mapleader = " " -- leader key
 
@@ -20,7 +21,12 @@ map("t", "jj", "<C-\\><C-n>", opts)
 
 
 -- normal mode ----------------------
-map("n", "<leader>v", ":buffers <CR>:vertical diffsplit #", opts2)
+map("n", "<leader>vd", ":buffers <CR>:vertical diffsplit #", opts2)
+map("n", "<leader>l", ":luafile %<CR>", opts2)
+map("n", "<leader>v", "<C-v>", opts)
+map("n", "<leader>4", "$", opts)
+map("v", "<leader>4", "$", opts)
+map("v", "<leader><leader>", "<ESC>", opts)
 map("n", "<leader>cc", ':lua require("color-converter").cycle()<CR>', opts)
 map("n", "<leader><leader>", "<C-w><C-w>", opts)
 
@@ -44,15 +50,15 @@ function mouse_setting()
 end
 map("n", "<leader>m", ":lua mouse_setting() <CR>", opts)
 
--- map("n", "<C-p>", "<Plug>MarkdownPreviewToggle", opts)
+map("n", "<C-p>", "<Plug>MarkdownPreviewToggle", opts3)
 map("n", "<leader>ma", ':lua require("nabla").popup()<CR>', opts) 
 -- Customize with popup({border = ...})  : `single` (default), `double`, `rounded`
 
 -- Start interactive EasyAlign in visual mode (e.g. vipga)
-map("x", "ga", "<Plug>(EasyAlign)", opts)
+map('x', 'ga', '<Plug>(EasyAlign)', opts3)
 
 -- Start interactive EasyAlign for a motion/text object (e.g. gaip)
-map("n", "ga", "<Plug>(EasyAlign)", opts)
+map('n', 'ga', '<Plug>(EasyAlign)', opts3)
 
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 map("n", "<leader>d", ":ToggleDiag<CR>", opts)
@@ -66,6 +72,7 @@ map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<CR>", 
 map("n", "<leader>fd", "<cmd>lua require('telescope.builtin').command_history()<CR>", opts)
 map("n", "<leader>fc", "<cmd>lua require('telescope.builtin').commands()<CR>", opts)
 map("n", "<leader>fk", "<cmd>lua require('telescope.builtin').keymaps()<CR>", opts)
+map("n", "<leader>fo", "<cmd>lua require('telescope.builtin').oldfiles()<CR>", opts)
 --map("n", "<leader>f", "<cmd>lua require('telescope.builtin').()<CR>", opts)
 
 

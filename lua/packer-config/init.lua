@@ -22,13 +22,14 @@ return require("packer").startup(function()
     use 'kyazdani42/nvim-web-devicons' --> enable icons
     use 'norcalli/nvim-colorizer.lua' --> colorize color codes 
     use 'NTBBloodbath/color-converter.nvim'
+    use 'glepnir/dashboard-nvim'
 
 --> edit setting
     use 'numToStr/Comment.nvim'	
     use 'jiangmiao/auto-pairs'
     use 'junegunn/vim-easy-align' 
     -- use 'windwp/nvim-autopairs'    
-    -- use 'iamcco/markdown-preview.nvim' 
+    use 'iamcco/markdown-preview.nvim' 
     -- use 'jbyuki/nabla.nvim'
     
     -- use 'nvim-neorg/neorg'
@@ -43,6 +44,8 @@ return require("packer").startup(function()
     use 'p00f/nvim-ts-rainbow'
     use 'nvim-treesitter/playground'
     use 'JoosepAlviste/nvim-ts-context-commentstring'
+
+    use 'gelguy/wilder.nvim' --> Autocompletion of vim command
 
 --> LSP
     use 'neovim/nvim-lspconfig' --> Collection of configurations for the built-in LSP client
