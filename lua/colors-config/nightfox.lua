@@ -1,10 +1,12 @@
--- local nightfox = require('nightfox')
--- 
--- nightfox.setup({
---     fox = 'nightfox', -- change the colorscheme
---     styles = {
---         comments = 'italic',
---         functions = 'italic',
---     },
--- })
+local nightfox = require('nightfox')
 
+nightfox.setup({
+    options = {
+        styles = {
+            comments = 'italic',
+            --functions = 'italic',
+        },
+    }
+})
+
+vim.cmd('colorscheme nightfox')

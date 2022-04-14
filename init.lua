@@ -1,6 +1,7 @@
 require("settings")
 require("packer-config")
 require("colors-config.nightfox")
+-- require("colors-config.sonokai")
 require("keymap-config")
 
 require("nvim-tree-config")
@@ -17,6 +18,7 @@ require("comment-nvim-config")
 -- require("autopairs-config")
 -- require("markdown-preview-config")
 
+require("telescope-config")
 
 require("lsp-config.language-servers")
 require("lsp-config.nvim-cmp")

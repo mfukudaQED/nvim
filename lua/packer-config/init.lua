@@ -9,6 +9,7 @@ return require("packer").startup(function()
 
 --> colorschemes
     use 'EdenEast/nightfox.nvim' --> nightfox colorsceme for neovim
+    use 'sainnhe/sonokai'
 
 
 --> visual setting

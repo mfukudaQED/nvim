@@ -36,8 +36,8 @@ wilder.set_option('pipeline', {
       -- can be set to 're2' for performance, requires pyre2 to be installed
       -- see :h wilder#python_search() for more details
       engine = 're',
-    }),
-    wilder.search_pipeline()
+    })
+    -- wilder.search_pipeline()
   ),
 })
 
