@@ -65,16 +65,24 @@ map('n', 'ga', '<Plug>(EasyAlign)', opts3)
 map("n", "<leader>e", ":NvimTreeToggle<CR>", opts)
 map("n", "<leader>d", ":ToggleDiag<CR>", opts)
 map("n", "<leader>z", ":TZMinimalist<CR>", opts)
+-- vim.keymap.set("n", "<leader>z", function()
+--   require("zen-mode").toggle()
+-- end, { desc = "Toggle Zen Mode" })
+
 
 --> telescope mappings <--
 map("n", "<leader>ff", "<cmd>lua require('telescope.builtin').find_files()<CR>", opts)
-map("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep()<CR>", opts)
+map("n", "<leader>fga", "<cmd>lua require('telescope.builtin').live_grep()<CR>", opts)
+map("n", "<leader>fg", "<cmd>lua require('telescope.builtin').live_grep({search_dirs={vim.fn.expand('%:p')}})<CR>", opts)
 map("n", "<leader>fb", "<cmd>lua require('telescope.builtin').buffers()<CR>", opts)
 map("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<CR>", opts)
 map("n", "<leader>fd", "<cmd>lua require('telescope.builtin').command_history()<CR>", opts)
 map("n", "<leader>fc", "<cmd>lua require('telescope.builtin').commands()<CR>", opts)
 map("n", "<leader>fk", "<cmd>lua require('telescope.builtin').keymaps()<CR>", opts)
 map("n", "<leader>fo", "<cmd>lua require('telescope.builtin').oldfiles()<CR>", opts)
+map("n", "<leader>fr", "<cmd>lua require('telescope.builtin').registers()<CR>", opts)
+map("n", "<leader>fq", "<cmd>lua require('telescope.builtin').quickfix()<CR>", opts)
+map("n", "<leader>fqh", "<cmd>lua require('telescope.builtin').quickfix_history()<CR>", opts)
 --map("n", "<leader>f", "<cmd>lua require('telescope.builtin').()<CR>", opts)
 
 

@@ -19,11 +19,18 @@ return require("packer").startup(function()
     use 'sunjon/shade.nvim' --> dim inactive windows
     use 'lukas-reineke/indent-blankline.nvim' --> indent guides for neovim
     use 'Pocco81/TrueZen.nvim'
+    --use 'folke/zen-mode.nvim'
     use 'akinsho/toggleterm.nvim'
     use 'kyazdani42/nvim-web-devicons' --> enable icons
     use 'norcalli/nvim-colorizer.lua' --> colorize color codes 
     use 'NTBBloodbath/color-converter.nvim'
-    use 'glepnir/dashboard-nvim'
+    use { 'nvimdev/dashboard-nvim',
+      event = 'VimEnter',
+      requires = {'nvim-tree/nvim-web-devicons'},
+      config = function()
+        require("dashboard-config")
+      end
+    }
 
 --> edit setting
     use 'numToStr/Comment.nvim'	
@@ -34,6 +41,23 @@ return require("packer").startup(function()
     -- use 'jbyuki/nabla.nvim'
     
     -- use 'nvim-neorg/neorg'
+    -- use 'ethanholz/nvim-lastplace'
+    use 'ojroques/nvim-osc52'  --> copy content in local clipboard
+
+    --> AI 
+    use {
+      "github/copilot.vim",
+      config = function()
+        -- Optional: disable copilot by default
+        -- vim.g.copilot_enabled = 0
+      end
+    }
+    --use {
+    --  "CopilotC-Nvim/CopilotChat.nvim",
+    --  requires = {
+    --    "nvim-lua/plenary.nvim", -- 必須依存
+    --  },
+    --}
 
 --> treesitter & treesitter modules/plugins
     use {
@@ -49,8 +73,17 @@ return require("packer").startup(function()
     use 'gelguy/wilder.nvim' --> Autocompletion of vim command
 
 --> LSP
+    use {
+      'williamboman/mason.nvim',
+      run = ':MasonUpdate', -- optionalだけど便利！
+    }
+    
+    -- Masonとlspconfigの橋渡し
+    use {
+      'williamboman/mason-lspconfig.nvim',
+      requires = { 'neovim/nvim-lspconfig' },
+    }
     use 'neovim/nvim-lspconfig' --> Collection of configurations for the built-in LSP client
-    use 'williamboman/nvim-lsp-installer' --> Companion plugin for lsp-config, allows us to seamlesly install language servers
     use 'hrsh7th/nvim-cmp' --> Autocompletion plugin
 	use 'hrsh7th/cmp-nvim-lsp' --> LSP source for nvim-cmp
 	use 'saadparwaiz1/cmp_luasnip' --> Snippets source for nvim-cmp

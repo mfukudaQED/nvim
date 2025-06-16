@@ -1,6 +1,12 @@
-require("indent_blankline").setup({
-	show_current_context = true,
-	show_current_context_start = true,
+local ibl = require("ibl")
+
+ibl.setup({
+  scope = {
+    enabled = true,  -- show_current_context と同じ
+    show_start = true,  -- show_current_context_start と同じ
+  },
+  indent = {
+    char = "┊",  -- インデントガイドの文字をスペースに
+  },
 })
 
-vim.g.indent_blankline_char = " "

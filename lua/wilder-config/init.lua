@@ -4,8 +4,8 @@ wilder.setup({
     modes = {':', '/', '?'},
     next_key = '<c-j>',
     previous_key = '<c-k>',
-    accept_key = '<c-h>',
-    reject_key = '<c-l>',
+    accept_key = '<c-l>',
+    reject_key = '<c-h>',
 })
 
 wilder.set_option('pipeline', {

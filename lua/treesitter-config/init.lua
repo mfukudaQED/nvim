@@ -14,6 +14,7 @@ require("nvim-treesitter.configs").setup({
         "cmake",
 		"lua",
 		"typescript",
+        -- "latex",
 		--"norg",
 		--"norg_meta",
 		--"norg_table",
@@ -26,6 +27,9 @@ require("nvim-treesitter.configs").setup({
 	indent = {
 		enable = true,
 	},
+    fold = {
+        enable = true
+    },
 	--> textobjects selection <--
 	textobjects = {
 		select = {
